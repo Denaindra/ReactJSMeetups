@@ -1,7 +1,10 @@
+import NewMeetupForm from "../componet/meetup/NewMeetupForm";
+
 const NewMeetup = () => {
     return (
         <div>
-            <h1>New meetup</h1>
+            <h1>Add New Meetup Here</h1>
+            <NewMeetupForm />
         </div>
     );
 }
