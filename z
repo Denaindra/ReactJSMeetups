@@ -1,0 +1,53 @@
+[33mcommit f0941075f7fc48aed9311315ff7fdf33f1859bf1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Mon Nov 15 07:11:51 2021 +0530
+
+    read form values without refreshing browser
+
+[33mcommit f61ca4e5e06d87dd48664ce0dc69e12e5d20d73d[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 13:29:24 2021 +0530
+
+    add new meetup form
+
+[33mcommit 31fbf90640b3bb82b29bd989215df9b115de9139[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 12:42:38 2021 +0530
+
+    add white background for middle layout
+
+[33mcommit 6ceee8a3713459355ffca03ae420fefbb7bbb48d[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 12:34:02 2021 +0530
+
+    add card UI with props.children to meetup view
+
+[33mcommit 9c6c6578bfacd67a4bdd209b5ee1bd0e0db2bfcc[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 12:33:11 2021 +0530
+
+    add data source to meetup ui
+
+[33mcommit 613de6e40ba4bb950fdbd42e43a3e8166b6de28e[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 09:40:33 2021 +0530
+
+    fixed navigation bar width
+
+[33mcommit 1fd508ec429bafb6dac75e217b3b8e7c548df6e8[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 07:44:15 2021 +0530
+
+    add main navigation
+
+[33mcommit 4223bc5756b26f73db06185de9ac16a80da447b4[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 07:29:13 2021 +0530
+
+    add react route
+
+[33mcommit d42126270f32c89ab35c366737646bfe4e3b4a53[m
+Author: gayan <mgdperera@gmail.com>
+Date:   Wed Nov 10 06:34:22 2021 +0530
+
+    Initialize project using Create React App

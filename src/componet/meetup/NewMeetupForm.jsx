@@ -1,17 +1,15 @@
-
 import Card from "../CardWapper/Card";
 import classes from "../../css/NewMeetupForm.module.css";
 import { useRef } from "react";
 
-const NewMeetupForm = () => {
+const NewMeetupForm = (props) => {
   const titleInputRef = useRef();
   const imageInputRef = useRef();
   const addressInputRef = useRef();
   const descriptionInputRef = useRef();
 
   const UserSubmitForm = (event) => {
-      event.preventDefault();
-
+    event.preventDefault();
     const enteredTitle = titleInputRef.current.value;
     const enteredImage = imageInputRef.current.value;
     const enteredAddress = addressInputRef.current.value;
@@ -24,7 +22,8 @@ const NewMeetupForm = () => {
       description: enteredDescription,
     };
 
-    console.log(meetupData);
+    props.AddToServices(meetupData)
+
   };
 
   return (
@@ -44,7 +43,12 @@ const NewMeetupForm = () => {
         </div>
         <div className={classes.control}>
           <label htmlFor="description">Description</label>
-          <textarea id="description" required rows="5" ref={descriptionInputRef} />
+          <textarea
+            id="description"
+            required
+            rows="5"
+            ref={descriptionInputRef}
+          />
         </div>
         <div className={classes.actions}>
           <button>Add Meetup</button>
