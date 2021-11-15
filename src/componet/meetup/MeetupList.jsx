@@ -5,7 +5,6 @@ const MeetupList = (props) => {
   return (
     <ul className={classes.list}>
       {props.data.map((meetup) => (
-          
         <MeetupItem meetup={meetup} key={meetup.id} />
       ))}
     </ul>
